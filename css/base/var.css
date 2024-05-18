@@ -1,0 +1,68 @@
+:root {
+
+    /* Breakpoint mobile first*/
+
+    /* --bp-xs: 375px;
+    --bp-xs: 480px;
+    --bp-s: 576px;
+    --bp-m: 768px;
+    --bp-l: 992px;
+    --bp-xl: 1200px;
+    --bp-xxl: 1400px; */
+
+    /* Space */
+    --space-unit: 1em;
+    --space-xs:   calc(0.5 * var(--space-unit));
+    --space-sm:   calc(0.75 * var(--space-unit));
+    --space-md:   calc(1.25 * var(--space-unit));
+    --space-lg:   calc(2 * var(--space-unit));
+    --space-xl:   calc(3.25 * var(--space-unit));
+  
+    /* Colors */
+
+    --color-white: #fff;
+    --color-black: #000;
+
+    --color-gray-100: #f8f9fc;
+    --color-gray-200: #f1f3f9;
+    --color-gray-300: #dee3ed;
+    --color-gray-400: #c2c9d6;
+    --color-gray-500: #8f96a3;
+    --color-gray-600: #5e636e;
+    --color-gray-700: #2f3237;
+    --color-gray-800: #1d1e20;
+    --color-gray-900: #111213;
+    
+    --color-main:  rgba(122, 218, 0, 1);
+    
+    /* Typographies */
+
+    --font-3xs: 0.125rem;
+    --font-2xs: 0.25rem;
+    --font-xs:  0.5rem;
+    --font-s:   0.75rem;
+    --font-xm:  0.875rem;
+    --font-m:   1rem;
+    --font-l:   1.125rem;
+    --font-xl:  1.25rem;
+    --font-2xl: 1.5rem;
+    --font-3xl: 2.625rem;
+    --font-4xl: 2.875rem;
+    --font-5xl: 3.625rem;
+    --font-6xl: 4.5rem;
+
+    /* --font-3xs: 2px;
+    --font-2xs: 4px;
+    --font-xs:  8px;
+    --font-s:   12px;
+    --font-xm:  14px;
+    --font-m:   16px;
+    --font-l:   18px;
+    --font-xl:  20px;
+    --font-2xl: 24px;
+    --font-3xl: 42px;
+    --font-4xl: 46px;
+    --font-5xl: 58px;
+    --font-6xl: 72px; */
+  
+    }

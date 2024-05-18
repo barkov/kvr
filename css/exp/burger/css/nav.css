@@ -1,0 +1,86 @@
+/* ---------------- nav ------------------------ */
+.nav {
+    /* margin-top: 100px;*/
+    /* position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.96);
+    display: none; */
+    padding-top: 100px;
+  }
+  .nav-container {
+    /* padding-top: 100px; */
+    display: flex;
+    flex-wrap: wrap;
+    /*gap: 30px;*/
+    /* overflow: scroll; */
+    position: relative;
+    scrollbar-width: thin; /* "auto" или "thin"  */
+    /* scrollbar-color:  #150f0b; плашка скролла и дорожка */
+    scrollbar-color: #eaeaea rgba(21, 15, 11, 0);
+    max-height: 75vh;
+  }
+  .nav-col1 {
+
+  }
+  .nav__list {
+    /*height: 380px;*/
+    /* display: flex; */
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
+  }
+  .nav__list dd {
+    width: 235px;
+    margin-left: 0;
+    margin: 5px;
+  }
+  .nav__title {
+    font-weight: 900;
+    font-size: 26px;
+    color: white;
+  }
+  .nav__desc {
+    font-size: 14px;
+    line-height: 125%;
+    color: black;
+    display: block;
+  }
+  a.nav__link {
+    font-size: 24px;
+    font-weight: 300;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    color: white;
+  }
+  .nav__link:hover {
+    text-decoration: underline;
+  }
+  .nav-show {
+    display: block;
+  }
+  .is-lock {
+    width: calc(100vw - 17px);
+    overflow: hidden;
+  }
+  .head-top_fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0) !important;
+  
+    /*box-shadow: 0px 7px 25px rgba(255, 125, 4, 0.7);*/
+    /*box-shadow: 0px 8px 26px rgba(171, 77, 7, 0.58);*/
+    box-shadow: 0px 8px 26px 1px rgba(41, 41, 41, 0.85);
+  
+    transition: all 1s ease-in-out;
+    animation: show-head 1s backwards ease-in-out;
+    width: calc(100vw - 17px);
+    z-index: 10;
+    width: 100vw;
+    height: 80px !important;
+  }
+  .head-top_fixed .head-top__body {
+    height: 80px;
+  }

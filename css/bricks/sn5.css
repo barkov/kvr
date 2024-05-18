@@ -1,0 +1,6 @@
+.sn5 {
+    background-color: #1D1A18;
+}
+.capacity_item {
+    width: clamp(240px, 5vw, 260px);
+}

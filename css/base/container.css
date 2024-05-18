@@ -1,0 +1,73 @@
+:root {
+
+    /* Breakpoint mobile first*/
+    /* $breakpoints: (
+    'xs': 32rem, // ~512px
+    'sm': 48rem, // ~768px
+    'md': 64rem, // ~1024px
+    'lg': 80rem, // ~1280px
+    'xl': 90rem  // ~1440px
+    ),  */
+    
+    --bp-xs: 375px;
+    --bp-xs: 480px;
+    --bp-s: 576px;
+    --bp-m: 768px;
+    --bp-l: 992px;
+    --bp-xl: 1200px;
+    --bp-xxl: 1400px;
+}
+.container {
+    flex-grow: 1;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+.container-fluid {
+  	width: 100%;
+  	margin: 0 auto;
+}
+
+@media (min-width: 320px) {
+    .container {
+      max-width: 260px;
+    }
+  }
+@media (min-width: 360px) { 
+    .container {
+      /* max-width: 320px; */
+      max-width: clamp(320px, 80vw, 560px);
+    }
+  }
+  
+@media (min-width: 576px) {
+      /* .container {
+        max-width: 540px;
+      } */
+    }
+
+@media (min-width: 768px) {
+      .container {
+        max-width: 720px;
+      }
+    }
+    
+@media (min-width: 992px) {
+      .container {
+        max-width: 960px;
+      }
+    }
+    
+@media (min-width: 1190px) {
+      .container {
+        max-width: 1120px;
+      }
+    }
+    
+@media (min-width: 1270px) {
+      .container {
+        max-width: clamp(1200px, 70vw, 1300px);
+      }
+    }

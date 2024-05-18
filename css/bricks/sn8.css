@@ -1,0 +1,14 @@
+.sn8 {
+    background: url("../../img/sn8-bg.jpg") no-repeat top left;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+@media (min-width: 992px) {
+    .sn8 {
+        background: url("../../img/desktop/sn8__bg.jpg") no-repeat top left;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+    }
+}
