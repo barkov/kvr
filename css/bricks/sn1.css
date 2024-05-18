@@ -39,17 +39,9 @@
 .header__burger {
     margin-top: 3px;
 }
-.header__illus {
-    background: url("../../img/sn1__illus.png") no-repeat top center;
-    height: 311px;
-    width: 100%;
-    background-size: contain;
-    margin-bottom: 5%;
-}
+
 .header__body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
     
 }
 .header__title {
@@ -113,15 +105,11 @@
     .btn_size_m {
         width: clamp(60%, 70vw, 80%);
     }
-    .header__illus {
-        height: clamp(311px, 80vw, 375px);
-        width: clamp(311px, 80vw, 375px);
-    }
 }
 
 @media (min-width: 1200px) {
     .sn1 {
-        background: url("../../img/desktop/sn1__bg.jpg") no-repeat top center;
+        background: url("../../img/bp-xl/sn1__bg.jpg") no-repeat top center;
         background-size: cover;
         width: 100%;
         /* height: 100vh; */
@@ -156,18 +144,12 @@
         font-size: 1.55rem;
     }
     .header__body {
-        flex-direction:row;
-        flex-direction: row-reverse;
         margin-bottom: 3%;  
     }
     .header__title {
-        width: 90%;
+        width: 53%;
     }
-    .header__illus {
-        background: url("../../img/desktop/sn1__illus.png") no-repeat top center;
-        height: 514px;
-        width: 100%;
-    }
+
     .header__footer {
         justify-content:flex-end;
         gap: 24px;
@@ -176,11 +158,11 @@
 @media (min-width: 1200px) {
 
     .logo__img {
-        height: 50px;
-        width: 240px;
+        height: 39px;
+        width: 64px;
     }
     .header__body {
-        /* gap: 2%; */
+        
     }
     .header__title {
         
@@ -189,7 +171,7 @@
         font-size: var(--font-4xl);
     }
     .header__expl {
-        font-size: var(--font-l);
+        font-size: var(--font-2xl);
         margin-bottom: 10%;
     }
     

@@ -1,14 +1,21 @@
 :root {
 
     /* Breakpoint mobile first*/
-
-    /* --bp-xs: 375px;
+    /* $breakpoints: (
+    'xs': 32rem, // ~512px
+    'sm': 48rem, // ~768px
+    'md': 64rem, // ~1024px
+    'lg': 80rem, // ~1280px
+    'xl': 90rem  // ~1440px
+    ),  */
+    
+    --bp-xs: 375px;
     --bp-xs: 480px;
     --bp-s: 576px;
     --bp-m: 768px;
     --bp-l: 992px;
     --bp-xl: 1200px;
-    --bp-xxl: 1400px; */
+    --bp-xxl: 1400px;
 
     /* Space */
     --space-unit: 1em;
@@ -33,7 +40,7 @@
     --color-gray-800: #1d1e20;
     --color-gray-900: #111213;
     
-    --color-main:  rgba(122, 218, 0, 1);
+    --color-main:  rgba(23, 169, 11, 1);
     
     /* Typographies */
 

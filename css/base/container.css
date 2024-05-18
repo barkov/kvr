@@ -1,22 +1,3 @@
-:root {
-
-    /* Breakpoint mobile first*/
-    /* $breakpoints: (
-    'xs': 32rem, // ~512px
-    'sm': 48rem, // ~768px
-    'md': 64rem, // ~1024px
-    'lg': 80rem, // ~1280px
-    'xl': 90rem  // ~1440px
-    ),  */
-    
-    --bp-xs: 375px;
-    --bp-xs: 480px;
-    --bp-s: 576px;
-    --bp-m: 768px;
-    --bp-l: 992px;
-    --bp-xl: 1200px;
-    --bp-xxl: 1400px;
-}
 .container {
     flex-grow: 1;
     margin: 0 auto;
@@ -68,6 +49,6 @@
     
 @media (min-width: 1270px) {
       .container {
-        max-width: clamp(1200px, 70vw, 1300px);
+        max-width: clamp(1200px, 85vw, 1600px);
       }
     }

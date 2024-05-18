@@ -1,12 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
+        <title>Document</title>
+    </head>
+    <body class="page__body">
+        <nav id="nav" class="overlay">
+            <div class="container">
+                <div class="nav nav-container">
+                    <div class="nav-col1">
+                        <h3 class="nav__title">Меню</h3>
+                        <dl class="nav__list">
+                            <dd>
+                                <a class="nav__link" href="#">
+                                    <span class="nav__name">Галлерея</span>
+                                </a>
+                            </dd>       
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="popup" class="popup-overlay overlay">
+            <div class="container">
+                <div class="popup flex items-center justify-center">
+                    <div class="popup__body">
+                        <div class="popup__close">
+                            <div class="popup__close_icon"></div>
+                        </div>
+                        <div class="popup__content">
+                            <p class="font-1xl mv0">Желаете оставить заявку на бронирование?
+                                    Звоните нам, мы принимаем заявки по телефону:</p>
+                            <p class="font-2xl fw8 popup__title">+7 978 126 40 28</p>
+                            <a href="tel:+79781264028" onclick="ym('000000', 'reachGoal', 'click-on-phone-isku'); return true;"class="call dib btn btn_main btn_size-l">Позвонить</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <header class="sn1">
+            <div class="container">
+                <div class="header headtop  flex flex-row">
+                    <a href="#">
+                        <div class="header__logo logo">
+                            <div class="logo__slogan"></div>
+                            <div class="logo__img"></div>
+                        </div>
+                    </a>
+                    <div class="header__top-conteiner">
+                        
+                        <div class="header__local">
+                            <p class="ma0">Симферополь<br>
+                                ул. Тургенева д.16 оф.27</p>
+                        </div>
+                        <div class="header__phone phone ">
+                            <p class="phone__tegline">с 09:00 по 20:00 без выходных</p>
+                            <a class="phone__namber" href="tel:+79781264028" onclick="ym('000000', 'reachGoal', 'click-on-phone-isku'); return true;">+7 978 126 40 28</a>
+                        </div>
+                        <div id="burger" class="burger burger--squeeze js-burger header__burger z-ind-2">
+                            <div class="burger-box">
+                                <div class="burger-inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            <div class="header__body">
+                <div class="header__title">
+                    <h1 class="header__offer">Построим дом  в Крыму под ключ
+                        за 40 дней <span class="color">от 3 600 000 руб.</span> с гарантией 20 лет </h1>
+                    <p class="header__expl">Строим дома от 60 кв.м. по готовому проекту на собственном 
+                        или приобретенном земельном участке в Крыму</p>
+                    <a href="#" id="button" class="boo db btn btn_main btn_size-l color-white mt3 mb5 flex items-center">
+                        <span class="icon-call mr3 db"></span>
+                        <span class="db">Звоните нам...</span></a>
+                </div>
+                
+            </div>
+            
+            <div class="header__footer flex flex-row justify-between">
+                <div class="social">
+                    <a href="https://vk.com/baksan_krym" class="link"><span class="social__vk"></span></a>
+                    <a href="https://wa.me/79781264028" class="link"><span class="social__whatsapp"></span></a>
+                </div>
+                <div class="reviews">
+                    <a href="https://yandex.ru/profile/1431089931?intent=reviews&utm_source=badge&utm_medium=rating&utm_campaign=v1" class="link"><span class="reviews__icon"></span></a>
+                </div>
+            </div>
+        </header>
+    </body>
 </html>
